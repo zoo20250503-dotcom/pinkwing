@@ -1,14 +1,53 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vita King Kong - Ignite Your Primal Power</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <div class="video-background">
+        <video autoplay muted loop playsinline id="bg-video">
+            <source src="https://storage.googleapis.com/gemini-studio-dev-public/kingkong.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="overlay"></div>
+
+    <header>
+        <div class="logo">
+            <svg width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 0L96.65 25V75L50 100L3.35 75V25L50 0Z" fill="#111"/>
+                <path d="M50 10L88.97 30V70L50 90L11.03 70V30L50 10Z" fill="url(#paint0_linear_101_2)"/>
+                <path d="M50 40L69.3 50L50 60L30.7 50L50 40Z" fill="white" fill-opacity="0.9"/>
+                <path d="M50 20L78.6 35V65L50 80L21.4 65V35L50 20Z" stroke="url(#paint1_linear_101_2)" stroke-width="2"/>
+                <defs>
+                    <linearGradient id="paint0_linear_101_2" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#00FF75"/>
+                        <stop offset="1" stop-color="#00A84E"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_101_2" x1="50" y1="20" x2="50" y2="80" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white" stop-opacity="0.6"/>
+                        <stop offset="1" stop-color="white" stop-opacity="0.2"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+            <span>VITA KING KONG</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1 class="title">VITA KING KONG</h1>
+            <h2 class="subtitle">ULTRA ENERGY</h2>
+            <p class="tagline">Ignite Your Primal Power</p>
+            <a href="#" class="cta-button">Unleash the Beast</a>
+        </div>
+    </main>
 </body>
 </html>
